@@ -1,0 +1,37 @@
+:root {
+    --color-bg: white;
+    --color-text: rgb(21, 65, 81);
+    --color-field: #7ee67e;
+    --color-chicago-blue: #B3DDF2;
+}
+
+:root {
+    --size-navbar-height: 96px;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'OpenSans', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+}
+
+h1 { font-size: 64px; }
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Comfortaa', sans-serif;
+}
+
+.bg-field { background: var(--color-chicago-blue); }
+
+#content { margin-top: var(--size-navbar-height); }
+
+.logo { height: 40px; }
+
+.text-upper { text-transform: uppercase; }
+
+.hero-list { font-size: 24px; }
+.hero-list li {
+  list-style-image: url('/img/bullet.png');
+}
