@@ -31,7 +31,18 @@ h1,h2,h3,h4,h5 {
 
 .text-upper { text-transform: uppercase; }
 
+.font-lg {
+  font-size: 16px;
+}
+
 .hero-list { font-size: 24px; }
 .hero-list li {
   list-style-image: url('/img/bullet.png');
+}
+
+.nav-anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
