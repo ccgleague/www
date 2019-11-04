@@ -1,0 +1,3 @@
+{
+    "Location": "/beta.chicagochicagogolfleague.com"
+}
